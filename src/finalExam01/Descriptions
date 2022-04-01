@@ -1,0 +1,28 @@
+1. The Imitation Game
+
+You will recieve encrypted message. 
+Until command "Decode" is given you will recieve strings with instructions for different operations.
+Move *numbers of letters* - move the first n letters to the back of the string
+Insert *index* *value* - inserts the given value before the given index in the string
+ChangeAll *substring* *replacement* - changes all occurrences of the given substring with the replacement text  
+
+
+2. Ad Astra
+
+You will be given a string. Extract the information about the food and calculate the total calories.
+food info will be surrounded by "|" or "#", it will only contain lowercase, uppercase and whitespace
+the expiration date will always come in that pattern (day)/(month)/(year) all of them will be exactly 2 digits.
+calories will be integer from 0-10000
+
+You should calculate the calories of all foods and then determine how many days you can last with the food.
+2000kcal per day
+
+
+3. The Pianist
+
+On the first line you recieve a an integer n - the number of pieces.
+On the next n lines, the pieces themselfs will follow composer and key. Collect the info.
+After that until you recieve command "Stop", you will be recieving different commands.
+Add *piece* *composer* *key* - you need to add the given piece to the collection. if the piece exist in the collection, print.
+Remove *piece* - If the collection contains the piece you need to delete it. Otherwise, print.
+ChangeKey "*piece* *newkey* - If the collection contains the piece you need to change its key with the given one. Otherwise, print.
