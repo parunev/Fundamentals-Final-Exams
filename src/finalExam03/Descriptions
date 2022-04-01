@@ -1,0 +1,27 @@
+1. Secret Chat
+
+On the first line, you will recieve the concealed message.
+After that you will be given instructions until the command "Reveal".
+InserSpace *index* - Inserts a single space at the given index.
+Reverse *substring* - If the message contains the substring, cut it out, reverse it and add it at the end of the message. If not print error.
+ChangeAll *substring* *replacement* - Change all occurrences of the given substring with the replacement text.
+
+
+2. Mirror Words
+
+On the first line of the input, you will be given a text string. You have to find all hidden word pairs and mark the ones that are mirror images of each other.
+Hidden word pairs are:
+	Surrounded by "@" or "#" (only one of the two) 
+  At least 3 characters long each
+	Made up of letters only
+If the second word, spelled backward, is the same as the first word and vice versa, they are a match, and you have to store them somewhere.
+
+
+3. Need for Speed
+
+On the first line of the standard input, you will receive an integer n – cars.
+On the next n lines, the cars themselves will follow with their mileage and fuel available
+Then, you will be receiving different commands, each on a new line until command "Stop"
+Drive *car* *distance* *fuel* - You need to drive the given distance and you will need the given fuel to do that. 
+Refuel *car* *fuel* - Refill the tank of your car. Max tank capacity - 75lt
+Revert *car* *kms* - Decrease the mileage of the given car with the given kilometers. Cannot be under 10.000
