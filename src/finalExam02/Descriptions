@@ -1,0 +1,24 @@
+1. World Tour
+
+On the first line, you will be given a string containing all of your stops.
+Until you recieve the command "Stop" you will be given some commands to manipulate the string.
+Add Stop *index* *string* - insert the given string at that index only if the index is valid
+Remove Stop *index *index* - remove the elements of the string from the starting index to the end index if both are indices are valid
+Switch *oldString* *newString* - if the old string is in the initial string, replace it with the new one.
+
+
+2. Destination Mapper
+
+You will be given a string representing some places on the map. You have to filter the valid ones.
+Valid one - surrounded by "=" or "/" on both sides. First letter is upper, others can be upper or lower. The letters must be atleast 3.
+After matching all the locations. You calculate travel points by summing the lengths of the valid destinations.
+
+
+3. Plant Discovery
+
+On the first line, you will recieve a number n.
+On the next n lines we recieve plant and rarity. We need to store that info. If we recieve the same plant, we update the rarity.
+After that you will be given different commands until "Exhibition"
+Rate *plant* *rating* - add the given rating to the plant (store the ratings)
+Update *plant* *newrarity* - update the rarity of the plant with new one
+Reset *plant* - remove all the ratings of the given plant.
