@@ -1,0 +1,33 @@
+1. Password Reset
+
+Write a password reset program that performs a series of commands upon a predefined string
+First you will receive a string and afterward until the command "Done" is given, you will be receiving strings with commands.
+
+TakeOdd - Takes only the characters at odd indices and concatenates them to obtain the new raw password
+Cut *index* *length* - Gets the substring with the given length starting from the given index from the password and removes its first occurrence
+Substitute *substring* *substitute* - If the raw password contains the given substring, replaces all of its occurrences with the substitute text given
+
+
+2. Fancy Barcode
+
+Your first task is to determine if the given sequence of characters is a valid barcode or not.
+Each line must not contain anything else but a valid barcode.
+A barcode is valid when: It is surrounded by a "@" followed by one or more "#"
+It is at least 6 characters long (without the surrounding "@" or "#")
+It starts with a capital letter
+It contains only letters (lower and upper case) and digits
+It ends with a capital letter
+Determine the product group of the item from the barcode. The product group is obtained by concatenating all the digits found in the barcode
+If there are no digits present in the barcode, the default product group is "00"
+
+
+3. Heroes of Code and Logic
+
+On the first line of the standard input, you will receive an integer n – the number of heroes that you can choose for your party
+On the next n lines, the heroes themselves will follow with their hit points and mana points (a hero can have a maximum of 100 HP and 200 MP)
+After you have successfully picked your heroes, you can start playing the game. You will be receiving different commands until "End"
+
+CastSpell *heroname* *MPneeded* *spellname* - If the hero has the required MP, he casts the spell, thus reducing his MP
+TakeDamage *heroname* *damage* *attacker* - Reduce the hero HP by the given damage amount. If the hero is still alive
+Recharge *heroname* *amount* - The hero increases his MP. If it brings the MP of the hero above the maximum value (200), MP is increased to 200.
+Heal *heroname* *amount* - The hero increases his HP. If a command is given that would bring the HP of the hero above the maximum value (100), HP is increased to 100
