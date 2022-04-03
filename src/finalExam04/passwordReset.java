@@ -1,5 +1,3 @@
-package finalExam04;
-
 import java.util.Scanner;
 
 public class passwordReset {
