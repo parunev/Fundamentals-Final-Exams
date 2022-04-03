@@ -1,5 +1,3 @@
-package finalExam03;
-
 import java.util.*;
 
 public class needForSpeed {
