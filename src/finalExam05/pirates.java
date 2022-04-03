@@ -1,5 +1,3 @@
-package finalExam05;
-
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
