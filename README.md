@@ -9,5 +9,6 @@ Repo content table:
 3. Final Exam 03 - Secret Chat, Mirror Words, Need for Speed
 4. Final Exam 04 - Password Reset, Fancy Barcode, Heroes of Code and Logic
 5. Final Exam 05 - Activation Key, Emoji Detector, Pirates
+6. My Final Exam - Hogwards, Easter Eggs, Message Manager (descriptions soon)
 
 <strong>Problem descriptions included!</strong>
